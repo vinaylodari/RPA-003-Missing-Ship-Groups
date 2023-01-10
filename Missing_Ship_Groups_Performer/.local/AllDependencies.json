@@ -9052,9 +9052,9 @@
     "restore": {
       "projectUniqueName": "Missing_Ship_Groups_Performer",
       "projectName": "Missing_Ship_Groups_Performer",
-      "projectPath": "C:\\Users\\vlodari\\OneDrive - Nautilus, Inc\\Documents\\UiPath\\RPA-034-Missing-Ship-Groups\\Missing_Ship_Groups_Performer\\.local",
+      "projectPath": "C:\\Users\\vlodari\\Documents\\GitHub\\RPA-003-Missing-Ship-Groups\\Missing_Ship_Groups_Performer\\.local",
       "packagesPath": "C:\\Users\\vlodari\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vlodari\\OneDrive - Nautilus, Inc\\Documents\\UiPath\\RPA-034-Missing-Ship-Groups\\Missing_Ship_Groups_Performer\\.local"
+      "outputPath": "C:\\Users\\vlodari\\Documents\\GitHub\\RPA-003-Missing-Ship-Groups\\Missing_Ship_Groups_Performer\\.local"
     },
     "frameworks": {
       "net461": {

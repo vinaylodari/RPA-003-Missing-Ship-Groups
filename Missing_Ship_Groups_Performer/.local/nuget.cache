@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yXUlRt/GqZuLDzCuHjzj2PcngwHlOLCBpMCpo/7vq/JyU5hupWPJwKFRarcmFGC8YXizsUXt1H0rz4eqFFlhkQ==",
+  "dgSpecHash": "blKp/ycYaYhiF8t95x+JNRyhiRGiql76F06gN7065dGaQROvsuhrKEdQd8wBSX7QvR49voIj6BED4s+1yvNeXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vlodari\\OneDrive - Nautilus, Inc\\Documents\\UiPath\\RPA-034-Missing-Ship-Groups\\Missing_Ship_Groups_Performer\\.local\\",
+  "projectFilePath": "C:\\Users\\vlodari\\Documents\\GitHub\\RPA-003-Missing-Ship-Groups\\Missing_Ship_Groups_Performer\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\vlodari\\.nuget\\packages\\changeinprogresstonew\\1.0.2\\changeinprogresstonew.1.0.2.nupkg.sha512",
     "C:\\Users\\vlodari\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",

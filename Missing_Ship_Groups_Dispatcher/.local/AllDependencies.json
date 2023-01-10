@@ -8981,9 +8981,9 @@
     "restore": {
       "projectUniqueName": "Missing_Ship_Groups_Dispatcher",
       "projectName": "Missing_Ship_Groups_Dispatcher",
-      "projectPath": "C:\\Users\\vlodari\\OneDrive - Nautilus, Inc\\Documents\\UiPath\\RPA-034-Missing-Ship-Groups\\Missing_Ship_Groups_Dispatcher\\.local",
+      "projectPath": "C:\\Users\\vlodari\\Documents\\GitHub\\RPA-003-Missing-Ship-Groups\\Missing_Ship_Groups_Dispatcher\\.local",
       "packagesPath": "C:\\Users\\vlodari\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vlodari\\OneDrive - Nautilus, Inc\\Documents\\UiPath\\RPA-034-Missing-Ship-Groups\\Missing_Ship_Groups_Dispatcher\\.local"
+      "outputPath": "C:\\Users\\vlodari\\Documents\\GitHub\\RPA-003-Missing-Ship-Groups\\Missing_Ship_Groups_Dispatcher\\.local"
     },
     "frameworks": {
       "net461": {
