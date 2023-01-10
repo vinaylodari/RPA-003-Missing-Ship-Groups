@@ -6,15 +6,14 @@
     "ChangeInProgressToNew": "[1.0.2]",
     "NetSuiteLogin": "[1.0.2]",
     "UiPath.Excel.Activities": "[2.16.0]",
-    "UiPath.System.Activities": "[22.10.1]",
-    "UiPath.Testing.Activities": "[22.4.3]",
-    "UiPath.UIAutomation.Activities": "[22.10.1]"
+    "UiPath.System.Activities": "[22.10.3]",
+    "UiPath.UIAutomation.Activities": "[22.10.3]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "22.4.4.0",
-  "projectVersion": "1.0.9",
+  "projectVersion": "1.0.23",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -41,59 +40,45 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "arguments": {
+    "input": [
       {
-        "editingStatus": "InProgress",
-        "testCaseId": "bc2dd444-5fec-4172-b898-d2207c9b3941",
-        "dataVariationFilePath": ".variations\\Tests_Tests.json",
-        "testCaseType": "TestCase",
-        "fileName": "Tests\\GeneralTestCase.xaml"
+        "name": "in_OrchestratorQueueName",
+        "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+        "required": false,
+        "hasDefault": false
       },
       {
-        "editingStatus": "InProgress",
-        "testCaseId": "f6b0bff0-b9b3-4121-9e24-594ef6fa3479",
-        "testCaseType": "TestCase",
-        "fileName": "Tests\\GetTransactionDataTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "2423cf81-e627-4f60-a605-cb9e45a27f3b",
-        "testCaseType": "TestCase",
-        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "2ec61a21-0f72-40dd-9dd6-bb36400dbf86",
-        "testCaseType": "TestCase",
-        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "d94c796d-14c7-4718-a94a-691d5f355b2f",
-        "testCaseType": "TestCase",
-        "fileName": "Tests\\MainTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "619fbc2b-6f83-4f1c-b8de-e90543b9e986",
-        "testCaseType": "TestCase",
-        "fileName": "Tests\\ProcessTestCase.xaml"
-      },
-      {
-        "editingStatus": "InProgress",
-        "testCaseId": "a3ffb28c-57f1-47d4-8c46-5f8ea5221e79",
-        "testCaseType": "TestCase",
-        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+        "name": "in_OrchestratorQueueFolder",
+        "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+        "required": false,
+        "hasDefault": false
       }
     ],
-    "modernBehavior": false
+    "output": []
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
       "uniqueId": "69c56c49-e896-48b2-8713-9330f1e48da5",
-      "input": [],
+      "input": [
+        {
+          "name": "in_OrchestratorQueueName",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": false
+        },
+        {
+          "name": "in_OrchestratorQueueFolder",
+          "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+          "required": false,
+          "hasDefault": false
+        }
+      ],
       "output": []
     }
   ],
